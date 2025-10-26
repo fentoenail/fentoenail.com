@@ -7,14 +7,12 @@ body {
   transition: background-color 0.3s;
 }
 
-/* Light mode */
 @media (prefers-color-scheme: light) {
   body {
     background-color: #f2f2f2;
   }
 }
 
-/* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1a1a1a;
@@ -28,5 +26,5 @@ img {
 }
 
 img:hover {
-  transform: scale(1.05);
+  content: url("fentoenail_hover_image.webp");
 }
