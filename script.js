@@ -35,3 +35,4 @@ image.addEventListener("click", () => {
 // Make the disc do something instead of just sending a warning.
 // 10 days before december 1st, make a count down appear on the screen.
 // When the user goes to the website on their phone, make an image with a computer and in the computer screen, there will be a link of the website. When user clicks on the computer, it prints "Visit this website on your computer"
+// make default size of page 67%. No jokes. 
