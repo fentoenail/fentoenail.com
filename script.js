@@ -88,7 +88,6 @@ updateTimer();
 
 
 // Make an animation of a computer and on the screen, it shows the website. When user clicks on the computer, the computer zooms in to fill the screen and reveals the website fully.
-// Make the disc do something instead of just sending a warning.
+// Make the disc do something instead of just sending a warning. Make it visit a random website from a list of the sub websites of the main website. 
 // 10 days before december 1st, make a count down appear on the screen.
 // When the user goes to the website on their phone, make an image with a computer and in the computer screen, there will be a link of the website. When user clicks on the computer, it prints "Visit this website on your computer"
-// make deafult screen size 67%
