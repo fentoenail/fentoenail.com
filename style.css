@@ -1,10 +1,6 @@
 body {
   margin: 0;
   height: 100vh;
-
-  transform: scale(0.67);
-  transform-origin: top center;
-
   display: flex;
   justify-content: center;
   align-items: center;

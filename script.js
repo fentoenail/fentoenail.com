@@ -32,8 +32,33 @@ image.addEventListener("mouseleave", () => {
 });
 
 image.addEventListener("click", () => {
-  alert("Image clicked!");
+  const options = [
+    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "https://www.youtube.com/watch?v=6_b7RDuLwcI",
+    "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+    "image1.jpg",
+    "image2.png",
+    "image3.webp"
+  ];
+
+  const choice = options[Math.floor(Math.random() * options.length)];
+
+  if (choice.startsWith("https://www.youtube.com/")) {
+    window.location.href = choice;
+  } 
+
+  else if (choice.endsWith(".jpg") || choice.endsWith(".png") || choice.endsWith(".webp")) {
+    document.body.innerHTML = `
+      <div style="background-color:#000;display:flex;justify-content:center;align-items:center;height:100vh;">
+        <img src="${choice}" style="max-width:90%;max-height:90%;">
+      </div>`;
+  } 
+
+  else {
+    alert(choice);
+  }
 });
+
 
 function updateTimer() {
   const targetDate = new Date("November 1, 2025 00:00:00").getTime();
